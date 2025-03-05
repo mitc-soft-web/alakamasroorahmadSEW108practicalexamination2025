@@ -1,0 +1,291 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    padding:0 ;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap:30px;
+    padding-left: 5%;
+}
+.java{
+    text-align: center;
+    background-color:#fff;
+}
+.script{
+    font-size: 90px;
+}
+.me{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    margin-bottom: 80px;
+    gap: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7fafc;
+}
+.ight::after{
+    animation-iteration-count: infinite;
+    animation-name: REALITY;
+    content: "";
+    animation-duration: 3s;
+    color: #bd9c68;
+    font-style: italic;
+}
+@keyframes REALITY{
+    0%{
+        content: "R";
+    }
+    5%{
+        content: "RE";
+    }
+    10%{
+        content: "REA";
+    }
+    15%{
+        content: "REAL";
+    }
+    25%{
+        content: "REALI";
+    }
+    35%{
+        content: "REALIT";
+    }
+    45%{
+        content: "REALITY";
+    }
+    55%{
+        content: "REALITY.";
+    }
+}
+
+.you{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.his{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    margin-top: 60px;
+    gap: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.her{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    margin-top: 110px;
+    gap: 37px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.him{
+    display: grid;
+    grid-template-columns:47% 47% ;
+    margin-top: 120px;
+    gap: 90px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7fafc;
+}
+.she{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.them{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    margin-top: 120px;
+    gap:60px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.hers{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    gap: 54px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.to{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.it{
+    text-align: center;
+    margin-top: 90px;
+}
+.dye{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 48px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.li{
+    font-size: 80px;
+    text-align: center;
+    color: #bd9c68;
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+    -webkit-text-stroke-color: #bd9c68;
+}
+.dam{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-top: 90px;
+    gap: 60px;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7fafc;
+}
+button{
+    background-color: rgb(137, 137, 197);
+}
+.icons{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #364761;
+    padding-top: 50px;
+    gap: 68px;
+}
+.block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.icon{
+    border-radius: 70px 70px;
+    border-style: double;
+}
+@media (max-width: 567px),(max-width: 768px),(max-width: 992px){
+    .you{
+        display: block;
+        grid-template-columns: 100%;
+        gap: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .me{
+        padding-top: 40px;
+        display: block;
+        grid-template-columns: 100%;
+        margin-bottom: 80px;
+        gap: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #f7fafc;
+    }
+
+    .him{
+        display: block;
+        grid-template-columns:100% ;
+        margin-top: 120px;
+        gap: 90px;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #f7fafc;
+    }
+
+    .his{
+        display: block;
+        grid-template-columns: 100%;
+        margin-top: 60px;
+        gap: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .her{
+        display: block;
+        grid-template-columns: 100%;
+        margin-top: 110px;
+        gap: 37px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .she{
+        display: block;
+        justify-content: space-between;
+        gap: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .them{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-top: 120px;
+        gap:60px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .hers{
+        display: block;
+        grid-template-columns: 100%;
+        gap: 54px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .dam{
+        display: block;
+        grid-template-columns: 100%;
+        margin-top: 90px;
+        gap: 60px;
+        padding-top: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #f7fafc;
+    }
+
+    .dam{
+        display: block;
+        grid-template-columns: 100%;
+        margin-top: 90px;
+        gap: 60px;
+        padding-top: 40px;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #f7fafc;
+    }
+    .icons{
+        display: grid;
+        grid-template-columns: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #364761;
+        padding-top: 50px;
+        gap: 68px;
+        text-align: center;
+    }
+    .dye{
+        display: block;
+        grid-template-columns: 100%;
+        gap: 48px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+}
+
